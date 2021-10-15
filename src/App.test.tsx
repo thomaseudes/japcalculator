@@ -24,5 +24,5 @@ test("renders App", () => {
       <App />
     </Provider>
   );
-  expect(baseElement).toBeDefined();
+  expect(baseElement).toBeNull();
 });
